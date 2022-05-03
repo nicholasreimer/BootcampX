@@ -16,8 +16,8 @@ ORDER BY student_count;
 -count up the value of all student ids and giv it an alias of student_count
 -both of the above are pulled from cohorts
 
--join both the cohorts table and the students table via the cohorts table id column and
- call it cohort_id
+-join both the cohorts table and the students table via the cohorts table id which 
+ is equal to the value laid out in the ERD
 
 -group this info u have summed, pulled and joined by cohort_name
 
